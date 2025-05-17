@@ -11,7 +11,7 @@ const Login = () => {
         <input ></input>
       </div>
       <button
-       onClick={() => navigate("/")}
+       onClick={() => navigate("/dashboard")}
        >Login</button>
     </div>
   );
