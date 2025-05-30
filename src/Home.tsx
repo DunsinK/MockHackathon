@@ -6,8 +6,8 @@ const Home = () => {
   const navigate = useNavigate();
 
   return (
-    <div className=" items-center text-black justify-center"> {/*min-h-screen bg-green-50 text-green-900 flex justify-center items-center px-4*/}
-      <div className="sticky top-0">
+    <div className=" items-center text-black justify-center h-screen"> {/*min-h-screen bg-green-50 text-green-900 flex justify-center items-center px-4*/}
+      <div className="sticky top-0 bg-white">
         <Navbar />
       </div>
 
