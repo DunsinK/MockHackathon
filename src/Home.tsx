@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import Navbar from "./NavBar";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 import UHackImage from "./Assets/U-Hack_Photo.webp"; // adjust if necessary
 
 const Home = () => {
@@ -7,7 +8,7 @@ const Home = () => {
 
   return (
     <div className=" items-center text-black justify-center h-screen"> {/*min-h-screen bg-green-50 text-green-900 flex justify-center items-center px-4*/}
-      <div className="sticky top-0 bg-white">
+      <div className="sticky top-0 ">
         <Navbar />
       </div>
 
@@ -54,7 +55,9 @@ const Home = () => {
       <img src={UHackImage} alt="U-Hack" className="w-72 mx-auto mb-6 rounded-xl shadow-md" />
       <img src={UHackImage} alt="U-Hack" className="w-72 mx-auto mb-6 rounded-xl shadow-md" />
 
-
+      <div className="bg-gray">
+        <Footer/>
+      </div>
     </div>
 
   );
