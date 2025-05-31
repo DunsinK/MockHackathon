@@ -55,7 +55,7 @@ const Home = () => {
       <img src={UHackImage} alt="U-Hack" className="w-72 mx-auto mb-6 rounded-xl shadow-md" />
       <img src={UHackImage} alt="U-Hack" className="w-72 mx-auto mb-6 rounded-xl shadow-md" />
 
-      <div className="bg-gray">
+      <div className="" style={{ backgroundColor: '#1B1B1B' }}>
         <Footer/>
       </div>
     </div>
